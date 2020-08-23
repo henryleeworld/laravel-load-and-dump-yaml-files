@@ -1,0 +1,12 @@
+current:
+  major: 0
+  minor: 1
+  patch: 0
+cache:
+  enabled: true
+  key: henrylee-world
+build:
+  mode: git-local # git-remote or number
+  number: 301207
+  git-local: "git rev-parse --verify HEAD"
+  length: 6
