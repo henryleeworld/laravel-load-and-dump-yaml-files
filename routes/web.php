@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\YamlController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('yaml/parse', 'YamlController@parse');
+Route::get('yaml/parse', [YamlController::class, 'parse']);

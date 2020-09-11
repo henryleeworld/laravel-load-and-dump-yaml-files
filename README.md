@@ -1,4 +1,4 @@
-# Laravel 7 讀取和傾印 YAML 檔案
+# Laravel 8 讀取和傾印 YAML 檔案
 
 引入 symfony 的 yaml 套件來擴增讀取和傾印 YAML 檔案，YAML 是一個可讀性高，用來表達資料序列化的格式。
 
