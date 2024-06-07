@@ -1,4 +1,4 @@
-# Laravel 10 讀取和傾印 YAML 檔案
+# Laravel 11 讀取和傾印 YAML 檔案
 
 引入 symfony 的 yaml 套件來擴增讀取和傾印 YAML 檔案，YAML 是一個可讀性高，用來表達資料序列化的格式。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/zB0MfLQ.png)
+![](https://i.imgur.com/pWyjXEW.png)
 > 解析 YAML 字串成 PHP 陣列，也支援轉換 PHP 陣列成 YAML 字串
