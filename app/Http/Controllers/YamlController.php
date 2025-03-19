@@ -9,8 +9,8 @@ class YamlController extends Controller
     public function parse()
     {
         $value = Yaml::parseFile(storage_path('files/app.yml'));
-        echo '版本號：' . $value['current']['major'] . '.' . $value['current']['minor'] . '.' . $value['current']['patch'] . PHP_EOL;
-        if ($value['cache']['enabled']) { echo '快取金鑰：' . $value['cache']['key'] . PHP_EOL; }
-        echo '建置號：' . $value['build']['number'] . PHP_EOL;
+        echo __('Version number: ') . $value['current']['major'] . '.' . $value['current']['minor'] . '.' . $value['current']['patch'] . PHP_EOL;
+        if ($value['cache']['enabled']) { echo __('Cache key: ') . $value['cache']['key'] . PHP_EOL; }
+        echo __('Build number: ') . $value['build']['number'] . PHP_EOL;
     }
 }

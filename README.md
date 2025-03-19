@@ -1,4 +1,4 @@
-# Laravel 11 讀取和傾印 YAML 檔案
+# Laravel 12 讀取和傾印 YAML 檔案
 
 引入 symfony 的 yaml 套件來擴增讀取和傾印 YAML 檔案，YAML 是一個可讀性高，用來表達資料序列化的格式。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/yaml/parse` 來進行 YAML 檔案讀取。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/pWyjXEW.png)
+![](https://i.imgur.com/z9cxn9h.png)
 > 解析 YAML 字串成 PHP 陣列，也支援轉換 PHP 陣列成 YAML 字串
