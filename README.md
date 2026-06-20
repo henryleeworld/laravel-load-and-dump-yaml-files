@@ -1,4 +1,4 @@
-# Laravel 12 讀取和傾印 YAML 檔案
+# Laravel 13 讀取和傾印 YAML 檔案
 
 引入 symfony 的 yaml 套件來擴增讀取和傾印 YAML 檔案，YAML 是一個可讀性高，用來表達資料序列化的格式。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/z9cxn9h.png)
+![](https://i.imgur.com/KVPbY6I.png)
 > 解析 YAML 字串成 PHP 陣列，也支援轉換 PHP 陣列成 YAML 字串
